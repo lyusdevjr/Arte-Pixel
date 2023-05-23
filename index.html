@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Pixel Art</title>
+  </head>
+  <body>
+    <main class="container">
+      <h1 id="title">Paleta de Cores</h1>
+
+      <section id="color-palette">
+        <div class="color black selected" id="color-1"></div>
+        <div class="color blue" id="color-2"></div>
+        <div class="color red" id="color-3"></div>
+        <div class="color brown" id="color-4"></div>
+      </section>
+      
+      <!-- BUTTON ACIONADORES -->
+        <button onclick="geradorButton()" id="button-random-color" >Cores aleatórias</button>
+        
+        <!-- INPUT GERADOR -->
+        <div id="board">
+          <input min = "1" max = "50" type="number" id="board-size">
+          <button onclick="criarDivs()" id = "generate-board" class="btn btn-white btn-        animate" >'VQV'</button>
+          <button  id="clear-board" onclick="removeColor()" class="btn btn-white btn-        animate butao" >Limpar</button>
+        </div>
+        
+        
+        <section id="pixel-board"></section>
+      </main>
+    
+      <script src="/script.js"></script>
+  </body>
+</html>
