@@ -2,13 +2,29 @@ body {
   margin: 0;
   padding: 0;
   cursor: url('./assets/pincel.png'), auto;
-  height: 100vh;
+  background: linear-gradient(50deg, #a53205, #a00a37, #1227ad, #0c54ee, #00ffd5, #6BBAEC, #bebe02, #DE6449, #40798C);
+  background-size: 400% 400%;
+  background-repeat: no-repeat;
+  animation: gradient 7s ease infinite;
   width: 100vw;
+  height: 100vh;
+ 
   
 
 
+}
 
 
+@keyframes gradient {
+  0% {
+    background-position: 10% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
   
@@ -34,8 +50,6 @@ body {
   margin: auto;
   padding: auto;
   box-sizing: border-box;
-  background-image: linear-gradient(45deg, #BCC4DB, #C0A9B0 15%, #7880B5 30%, #6987C9 45%, #00ffd5 60%, #6BBAEC 75%, #FFFFF2 90%, #DE6449);
-
 }
 
 
@@ -247,7 +261,8 @@ div button {
   display: flex;
 }
 
-.pixel {
+.pixel { 
+  position: relative;
   width: 40px;
   height: 40px;
   border: 2px solid rgb(0, 0, 0);
