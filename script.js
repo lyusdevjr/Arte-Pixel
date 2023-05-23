@@ -1,5 +1,3 @@
-
-
 function geradordeCor () {
   const chars ='0123456789ABCDEF';
   let color = '#';
