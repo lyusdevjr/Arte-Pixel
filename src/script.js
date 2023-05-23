@@ -42,7 +42,7 @@ window.addEventListener('load', () => {
             const viewerBoard = document.querySelector('#pixel-board');
 
             const generateBoard = () => {
-              for (let row = 0; row <= 5; row += 1) {
+              for (let row = 0; row < 5; row += 1) {
                 const rowDiv = document.createElement('div');
 
                 for (let index = 0; index < 5; index += 1) {
