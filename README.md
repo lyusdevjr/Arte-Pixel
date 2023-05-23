@@ -6,9 +6,9 @@
 
 ## 🚀Tecnologias e Ferramentas utilizadas:
 <h1 align='left'>
-<img src="./assets/html.gif" />
-<img src="./assets/css.gif" />
-<img src="./assets/js.gif" />
+<img src="./assets/html.gif" width = "50px" height = "50px"/>
+<img src="./assets/css.gif" width = "50px" height = "50px" />
+<img src="./assets/js.gif" width = "50px" height = "50px" />
 </h1>
 
 # Requisitos Obrigatórios
