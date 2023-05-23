@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(45deg, #BCC4DB, #C0A9B0, #7880B5, #6987C9, #00ffd5, #6BBAEC, #FFFFF2, #DE6449, #40798C);
+  background-repeat: repeat;
   cursor: url('./assets/pincel.png'), auto;
   height: 100vh;
 }
@@ -29,6 +29,7 @@ body {
   margin: auto;
   padding: auto;
   box-sizing: border-box;
+  background: linear-gradient(45deg, #BCC4DB, #C0A9B0, #7880B5, #6987C9, #00ffd5, #6BBAEC, #FFFFF2, #DE6449, #40798C); 
 }
 
 
